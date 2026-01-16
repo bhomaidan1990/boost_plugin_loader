@@ -78,7 +78,7 @@ if(ENABLE_CPACK)
     README_FILE
     ${CMAKE_CURRENT_LIST_DIR}/README.md
     LINUX_DEPENDS
-    "libboost-filesystem1.71.0"
+    "libboost-filesystem1.83.0"
     WINDOWS_DEPENDS
     "boost_filesystem")
 endif()
